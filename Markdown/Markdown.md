@@ -257,6 +257,25 @@ Direct link: <https://google.com>
 </tr>
 </table>
 
+<table>
+<tr>
+<td>
+
+[Anchor Links](./Markdown.md#links--images) can be used for any heading.
+</td>
+<td>
+
+```markdown
+[Anchor Links](./Markdown.md#links--images) can be used for any heading.
+```
+</td>
+</tr>
+</table>
+
+* Convert heading to lowercase
+* replace `space` with `-`
+* remove special characters. e.g. `&`
+
 ## Code
 <table>
 <tr>

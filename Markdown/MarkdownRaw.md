@@ -82,6 +82,11 @@ Direct link: <https://google.com>
 ![Markdown image](markdown.png)  
 [![Markdown clickable image](markdown.png "Click me!")](https://google.com)
 
+[Anchor Links](./Markdown.md#links--images) can be used for any heading.
+* Convert heading to lowercase
+* replace `space` with `-`
+* remove special characters. e.g. `&`
+  
 ## Code
 Inline `code`
 ```java
