@@ -3,6 +3,7 @@
 
 ## Sequence Diagrams
 ### Basic
+**Diagram Basics**
 ```plantuml
 @startuml Diagram Basics
 skinparam ResponseMessageBelowArrow true
@@ -26,6 +27,7 @@ Collections --> Actor : Response
 ```
 ![Diagram Basics](DiagramBasics.png)
 
+**Basic Arrows**
 ```plantuml
 @startuml Basic Arrows
 skinparam ResponseMessageBelowArrow true
@@ -55,6 +57,7 @@ Alice -[#0000FF]-> Bob : "-[#0000FF]->"
 ```
 ![Basic Arrows](BasicArrows.png)
 
+**Basic Formatting**
 ```plantuml
 @startuml Basic Formatting
 title Basic Formatting
@@ -97,7 +100,7 @@ Alice -> Bob : Big Whitespace
 ![Basic Formatting](BasicFormatting.png)
 
 ### Lifelines
-
+**Lifelines**
 ```plantuml
 @startuml Lifelines
 participant User
@@ -128,6 +131,7 @@ deactivate A
 ```
 ![Lifelines](Lifelines.png)
 
+**Autoactivate**
 ```plantuml
 @startuml Autoactivate
 autoactivate on
